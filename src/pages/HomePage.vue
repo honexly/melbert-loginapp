@@ -15,7 +15,7 @@
         </div>
           <!-- Log Out Confirmation -->
           <div v-if="showConfirmation" class="confirmation-modal">
-            <p>Are you sure you want to log out?</p>
+            <p>Are you sure you want to log out????????</p>
             <button @click="logout" class="btn-yes">Yes</button>
             <button @click="cancelLogout" class="btn-no">No</button>
           </div>

@@ -23,7 +23,7 @@
         <div class="lol-logo">
           <img src="@/assets/download (2).png" alt="LOL Logo" class="logo" />
         </div>
-        <h2 class="title">Account Login</h2>
+        <h2 class="title">Account Login Here</h2>
         <form @submit.prevent="submitForm">
           <!-- Email Input -->
           <div class="form-group">
@@ -170,7 +170,7 @@
 /* Title */
 .title {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
   background: linear-gradient(to right, #ff3300, #feb47b); 
