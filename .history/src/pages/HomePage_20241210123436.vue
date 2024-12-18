@@ -1,0 +1,171 @@
+<template>
+    <div class="home-container">
+    <!-- Header Section -->
+    <header class="header">
+      <div class="logo">
+        <h1>League of Legends</h1>
+        <p>Stay up to date with all things League</p>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+      <section class="news-section">
+        <h2>Road to Preseason - Gameplay Update</h2>
+        <p>Join the exciting new changes and strategies for the preseason!</p>
+        <a href="#" class="btn-read-more">Read More</a>
+      </section>
+
+      <!-- Featured Images Section -->
+      <section class="featured-images">
+        <div class="image-box">
+          <img src="https://via.placeholder.com/300" alt="League Update" />
+        </div>
+        <div class="image-box">
+          <img src="https://via.placeholder.com/300" alt="League Champions" />
+        </div>
+        <div class="image-box">
+          <img src="https://via.placeholder.com/300" alt="Season Update" />
+        </div>
+        <div class="image-box">
+          <img src="https://via.placeholder.com/300" alt="Season Update" />
+        </div>
+        <div class="image-box">
+          <img src="https://via.placeholder.com/300" alt="Season Update" />
+        </div>
+      </section>
+
+      <!-- Information Section -->
+      <section class="info-section">
+        <h3>Immersive Reading Experience</h3>
+        <p>Get ready for immersive content like never before.</p>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>&copy; 2024 League of Legends. All rights reserved.</p>
+    </footer>
+  </div>
+  </template>
+  
+  <script>
+  export default {
+    name: "HomePage",
+  };
+  </script>
+  
+  <style scoped>
+  /* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #0f0f0f;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  color: #f4c542;
+}
+
+.logo p {
+  font-size: 1.25rem;
+  color: #ccc;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  background: #181818;
+}
+
+.news-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f4c542;
+}
+
+.news-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.btn-read-more {
+  padding: 10px 20px;
+  background: #f4c542;
+  color: #0f0f0f;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-read-more:hover {
+  background: #e0a237;
+}
+
+/* Featured Images Section */
+.featured-images {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.image-box {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Info Section */
+.info-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.info-section h3 {
+  font-size: 1.75rem;
+  color: #f4c542;
+}
+
+.info-section p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #0f0f0f;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+}
+  </style>
